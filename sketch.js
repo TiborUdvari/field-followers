@@ -120,7 +120,7 @@ function draw(){
 				var theta = map(noise(frameCount * 0.001 + c / 10,r / 10),0,1,0,TWO_PI);
     		t.x = cos(theta);
     		t.y = sin(theta);
-    		point.look(t, 0.01);
+    		point.look(t, 0.05);
 			} 
 
     	//point.dir.x = cos(theta);
